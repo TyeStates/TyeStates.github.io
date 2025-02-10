@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Tye States assignment</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body class="bg-dark text-light text-center ">
+        <h1>Tye States, 0300326, Assignment</h1>
+        <nav class = "navbar-dark navbar-expand-sm bg-secondary justify-content-center">
+            <div class="container-fluid"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link" href="#basicautobiography">Personal info</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#foodList">Favourite foods</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#hobbiesTable">Hobbies</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#petsTable">Pets</a> </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid" id="basicautobiography">
+            <h2>Who am I?</h2>
+            <p>
+                My name is Tye States. I am a third year in the bachelor's of 
+                computer science program at Acadia University.<br> I have lived in 
+                Nova Scotia my entire life, having grown up in the West Hants
+                municipality, specifically in Falmouth and Windsor.<br> I am not
+                highly experienced in computer science fields in terms of work, but 
+                in terms of academics I tend to perform relatively well.<br>My personal
+                hope for a career is to work in the cybersecurity field because I find 
+                that side of systems very interesting. 
+            </p>
+            <h2>what do I know?</h2>
+            <p>
+                Going into this class, I know the barest minimum amount of js, ts and SQL
+                and have no experience at all in HTML<br> or the other languages we use
+                in this course. I have poked around seeing what people can do with 
+                the languages presented.<br> But I am still unclear on certain topics presented.
+                For example, I am not fully aware of how Mongo is actually used,
+                outside of it<br> being used for databases. I've also never heard of JQuery or AJAX
+                but those are the exceptions, not the rule. I have heard of,<br> poked around,
+                or even tried coding using all other languages here. I was planning on building
+                a website anyway, and decided<br> to take this course to aid me. 
+            </p>
+            <h2>what do I want to learn?</h2>
+            <p>
+                Mainly, I want to learn the process that goes into each layer of the stack
+                along with how to actually approach it.<br> I am also wanting to learn the 
+                JS language, and the React framework when we get to those, having already<br> 
+                learned how to embed Javascript into my HTML files. Also, during this course,
+                I hope to gain an improved<br> understanding of database construction and queries, having only
+                made very rudimentary database directly from Java.
+            </p>
+        </div>
+        <div class="container-fluid" id="foodList">
+            <h2 >Unordered list of my favourite foods</h2>
+            <ul class="list-group list-group-flush">
+                <li class = "list-group-item bg-dark text-light">Pasta
+                    <ul class="list-group">
+                        <li class = "list-group-item bg-secondary text-light">spaghetti</li >
+                        <li class = "list-group-item bg-secondary text-light">penne</li >
+                        <li class = "list-group-item bg-secondary text-light">rotini</li >
+                    </ul>
+                </li >
+                <li class = "list-group-item bg-dark text-light">fried chicken (dark meat prefered)</li >
+                <li class = "list-group-item bg-dark text-light">raspberries</li >
+                <li class = "list-group-item bg-dark text-light">pork ribs (back)</li >
+                <li class = "list-group-item bg-dark text-light">crab legs</li >
+                <li class = "list-group-item bg-dark text-light">tacos</li >
+                <li class = "list-group-item bg-dark text-light">blackberries</li >
+                <li class = "list-group-item bg-dark text-light">beef
+                    <ul class="list-group">
+                        <li class = "list-group-item bg-secondary text-light">steak (medium)</li >
+                        <li class = "list-group-item bg-secondary text-light">prime rib</li >
+                        <li class = "list-group-item bg-secondary text-light">roast with gravy</li >
+                        <li class = "list-group-item bg-secondary text-light">hamburger</li >
+                    </ul>
+                </li >
+                <li class = "list-group-item bg-dark text-light">cheesecake</li >
+                <li class = "list-group-item bg-dark text-light">chocolate (dark)</li >
+                <li class = "list-group-item bg-dark text-light">donair eggrolls</li >
+            </ul>
+        </div>
+        <div class="container-fluid">
+            <h2 id="hobbiesTable">table 1</h2>
+            <table class="table table-dark table-hover table-bordered">
+                <tr>
+                    <th colspan = "4">Hobbies by category</th>
+                </tr>
+                <tr>
+                    <th>former               </th>
+                    <th>current productive   </th>
+                    <th>current unproductive </th>
+                    <th>other (could be both, <br> productive or unproductive depending on opinion)</th>
+                </tr>
+                <tr>
+                    <td>Basketball</td>
+                    <td>game development</td>
+                    <td>gaming</td>
+                    <td>window shopping/gift buying</td>
+                </tr>
+                <tr>
+                    <td>Volleyball</td>
+                    <td>story writing</td>
+                    <td>reading comics</td>
+                    <td>deep dives into internet rabbitholes</td>
+                </tr>
+                <tr>
+                    <td>Alpine skiing</td>
+                    <td>baking (when chance given)</td>
+                    <td>watching youtube</td>
+                    <td>Caring for pets</td>
+                </tr>
+                <tr>
+                    <td>Horseback riding</td>
+                    <td> </td>
+                    <td>listening to music</td>
+                    <td> </td>
+                </tr>
+            </table>
+
+            <h2 id="petsTable"><br>table 2</h2>
+            <table class="table table-dark table-hover table-bordered">
+                
+                <thead>
+                    <tr>
+                        <th colspan="3">Pets<th>
+                        <!--this gave me a bizarre error, there are 4 columns just like above, but I would get an error if I used 4 as my colspan
+                        I don't know why this happened, but using 3 works anyway so I am just going to use this for this assignment-->
+                    </tr>
+                </thead>
+                <tr>
+                    <th style = "width:15%">name</th>
+                    <th style = "width:20%">species</th>
+                    <th style = "width:25%">level of evil</th>
+                    <th style = "width:40%">image of creature</th>
+                </tr>
+                <tr>
+                    <td>Jax</td>
+                    <td>Dog (Jack Russel terrier)</td>
+                    <td>playfully sneaky, slightly evil, smarter than owner, understands barter system, desires cheese above all else</td>
+                    <td><img src = "src-images/Jax.jpg" alt="Image of a white and beige jack russel terrier in a red scarf. Wide eyes looking at the camera"class ="img-fluid"></td>
+                    <!--image of Jax was taken from my mother's facebook page. All other photos taken off of my phone-->
+                </tr>
+                <tr>
+                    <td>Trixie</td>
+                    <td>barn Cat (black and white)</td>
+                    <td>rude, moderately evil, does not like Rosie or Jax, yells at me to pick her up to get food, good conversationalist</td>
+                    <td><img src="src-images/Trixie.jpg" alt="A black and white cat, lying on a messy bed."class ="img-fluid"></td>
+                </tr>
+                <tr>
+                    <td>Rosie</td>
+                    <td>barn Cat (brown tabby)</td>
+                    <td>snuggly, not evil, loves pets, good hunter for mice</td>
+                    <td><img src="src-images/Rosie.jpg" alt="A brown tabby cat curled up, asleep on a blanket with square pattern. " class ="img-fluid"></td>
+                </tr>
+                <tr>
+                    <td>Spirit</td>
+                    <td>housecat (demon)</td>
+                    <td>attacks at random, very evil, would eat a baby if given the chance, is aware of what a baby is</td>
+                    <td><img src="src-images/TheCreature-Spirit.jpg" alt="a light brown tabby cat lying on a bed in front of someone's lap,
+                        giving the camera the stink eye." class ="img-fluid"></td>
+                </tr>
+                <tr>
+                    <td>Rock (Badger Bar Rock)</td>
+                    <td>Quarter-horse</td>
+                    <td>not evil, kinda dumb, getting old now, relatively calm</td>
+                    <td><img src="src-images/BBRock.jpg" alt="image of black horse with his head turned to the left of the camera" class ="img-fluid"></td>
+                </tr>
+                <tr>
+                    <td>Ace (Badger Bar Peppy Ace)</td>
+                    <td>Quarter-horse</td>
+                    <td>moderately evil, kinda dumb, younger half-brother of Rock, not calm, intentionally annoying</td>
+                    <td><img src="src-images/BBPAce.jpg" alt="image of brown horse looking at the camera with a snowy background" class ="img-fluid"></td>
+                </tr>
+            </table>
+        </div>
+        <footer class="text-end">
+            <p>Site made by Tye States, Id 0300326</p>
+        </footer>
+    </body>
+</html>
